@@ -1,4 +1,5 @@
-const catsSliderUrl = 'https://raw.githubusercontent.com/Chernukha21/catsSlider/master/cats.json';
+// const catsSliderUrl = 'https://raw.githubusercontent.com/Chernukha21/catsSlider/master/cats.json';
+const catsSliderUrl = 'https://raw.githubusercontent.com/Chernukha21/catsSlider/master/tigers.json';
 fetch(catsSliderUrl)
     .then(response => response.json())
     .then(slides => {
