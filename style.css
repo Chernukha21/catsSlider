@@ -1,0 +1,32 @@
+
+body {
+    background: black;
+}
+
+#slider {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#slid_pictur {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+.slide_button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #11e7bc;
+    font-weight: 500;
+    font-size: 18px;
+    width: 74px;
+    height: 35px;
+    background: red;
+}
+
+.right_slider_button {
+    float: right;
+}
