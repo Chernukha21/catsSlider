@@ -45,6 +45,11 @@
             "https://github.com/Chernukha21/catsSlider/blob/master/pictures/6.jpg?raw=true"
         ];
 
+        const catsSliderUrl = 'https://raw.githubusercontent.com/Chernukha21/catsSlider/master/cats.json';
+        fetch(catsSliderUrl)
+            .then(response => response.json())
+            .then(data => { console.log(data)})
+            .catch(error => { console.log(error)})
         const sliderPicture = createTag('div');
 
         let currentSliderImageIndex = 0;
