@@ -5,17 +5,17 @@ body {
 
 #slider {
     width: 300px;
-    height: auto;
+    height: 300px;
     margin: 0 auto;
 }
-
-#slid_pictur {
-    margin: 0 auto;
-    width: 300px;
-    height: 300px;
+#slider img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .slide_button {
+    cursor: pointer;
     display: inline-flex;
     justify-content: center;
     align-items: center;
